@@ -1,7 +1,7 @@
 import { motion } from 'motion/react'
 import { type ReactNode } from 'react'
 
-import Navbar from '@/components/organisms/navbar'
+import { Navbar } from '@/components/organisms/navbar'
 import { useLanguage } from '@/store/language'
 
 const FADE_DURATION = 0.2

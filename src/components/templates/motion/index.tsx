@@ -12,7 +12,7 @@ interface MotionProps {
   className?: string
 }
 
-export default function Motion({ children, className }: MotionProps): ReactNode {
+export function Motion({ children, className }: MotionProps): ReactNode {
   return (
     <motion.div
       className={className}

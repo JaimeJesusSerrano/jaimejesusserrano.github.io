@@ -1,6 +1,10 @@
 import { type ReactNode } from 'react'
 
-export default function StatusBadge({ label }: { label: string }): ReactNode {
+interface Props {
+  label: string
+}
+
+export function StatusBadge({ label }: Props): ReactNode {
   return (
     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-sm font-mono text-blue-400">
       <span className="relative flex h-2 w-2">

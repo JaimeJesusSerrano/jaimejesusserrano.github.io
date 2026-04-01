@@ -1,7 +1,7 @@
 import { type ReactNode } from 'react'
 import { FaArrowRight } from 'react-icons/fa6'
 
-import SocialLinks from '../social-links'
+import { SocialLinks } from '@/components/molecules/social-links'
 
 const CTA_ICON_SIZE = 18
 
@@ -9,7 +9,7 @@ interface Props {
   contactLabel: string
 }
 
-export default function HeroActions({ contactLabel }: Props): ReactNode {
+export function Contact({ contactLabel }: Props): ReactNode {
   return (
     <div className="flex flex-wrap items-center gap-4 pt-4">
       <a

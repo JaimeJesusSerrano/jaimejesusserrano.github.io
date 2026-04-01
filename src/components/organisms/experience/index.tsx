@@ -1,11 +1,12 @@
 import { type ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import SectionHeading from '../../atoms/section-heading'
-import JobEntry from '../../molecules/job-entry'
-import Motion from '../../templates/motion'
+import { SectionHeading } from '@/components/atoms/section-heading'
+import { Motion } from '@/components/templates/motion'
 
-export default function Experience(): ReactNode {
+import { Job } from './components/job'
+
+export function Experience(): ReactNode {
   const { t } = useTranslation()
   const jobs = t('experience.jobs', { returnObjects: true })
 
@@ -16,7 +17,7 @@ export default function Experience(): ReactNode {
 
         <div className="space-y-12">
           {jobs.map((job) => (
-            <JobEntry key={`${job.company}-${job.period}-${job.role}`} job={job} />
+            <Job key={`${job.company}-${job.period}-${job.role}`} job={job} />
           ))}
         </div>
       </Motion>

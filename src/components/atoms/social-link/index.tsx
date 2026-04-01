@@ -6,7 +6,11 @@ interface Props {
   external?: boolean
 }
 
-export default function SocialLink({ href, icon, external = false }: Props): ReactNode {
+export function SocialLink({
+  href,
+  icon,
+  external = false
+}: Props): ReactNode {
   return (
     <a
       className="text-[#a1a1aa] hover:text-white transition-colors"

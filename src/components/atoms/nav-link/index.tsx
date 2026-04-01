@@ -5,7 +5,7 @@ interface Props {
   children: ReactNode
 }
 
-export default function NavLink({ href, children }: Props): ReactNode {
+export function NavLink({ href, children }: Props): ReactNode {
   return (
     <a
       className="text-sm font-medium text-[#a1a1aa] hover:text-white transition-colors"

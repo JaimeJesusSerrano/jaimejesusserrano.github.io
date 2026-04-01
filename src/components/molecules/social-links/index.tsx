@@ -1,11 +1,11 @@
 import { type ReactNode } from 'react'
 import { FaEnvelope, FaGithub, FaLinkedinIn } from 'react-icons/fa6'
 
-import SocialLink from '../../atoms/social-link'
+import { SocialLink } from '@/components/atoms/social-link'
 
 const SOCIAL_ICON_SIZE = 24
 
-export default function SocialLinks(): ReactNode {
+export function SocialLinks(): ReactNode {
   return (
     <div className="flex items-center gap-4 px-4">
       <SocialLink

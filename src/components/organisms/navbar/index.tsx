@@ -2,16 +2,15 @@ import { motion } from 'motion/react'
 import { type ReactNode, useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
+import { LanguageToggle } from '@/components/atoms/language-toggle'
+import { NavLink } from '@/components/atoms/nav-link'
 import { useLanguage } from '@/store/language'
-
-import LanguageToggle from '../../atoms/language-toggle'
-import NavLink from '../../atoms/nav-link'
 
 const INITIAL_HEADER_Y = -100
 const FINAL_HEADER_Y = 0
 const SCROLL_THRESHOLD = 50
 
-export default function Navbar(): ReactNode {
+export function Navbar(): ReactNode {
   const [scrolled, setScrolled] = useState(false)
   const { language, toggleLanguage } = useLanguage()
   const { t } = useTranslation()

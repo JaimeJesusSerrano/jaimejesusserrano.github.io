@@ -1,12 +1,12 @@
 import { type ReactNode } from 'react'
 
-import { type EducationItem } from '@/type'
+import { type Education } from '@/type/Education'
 
 interface Props {
-  item: EducationItem
+  item: Education
 }
 
-export default function EducationEntry({ item }: Props): ReactNode {
+export function Item({ item }: Props): ReactNode {
   return (
     <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
       <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">

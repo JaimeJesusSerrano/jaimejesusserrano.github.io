@@ -1,11 +1,12 @@
 import { type ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import StatusBadge from '../../atoms/status-badge'
-import HeroActions from '../../molecules/hero-actions'
-import Motion from '../../templates/motion'
+import { StatusBadge } from '@/components/atoms/status-badge'
+import { Motion } from '@/components/templates/motion'
 
-export default function Hero(): ReactNode {
+import { Contact } from './components/contact'
+
+export function Hero(): ReactNode {
   const { t } = useTranslation()
 
   return (
@@ -24,7 +25,7 @@ export default function Hero(): ReactNode {
           {t('hero.description')}
         </p>
 
-        <HeroActions contactLabel={t('hero.contactBtn')} />
+        <Contact contactLabel={t('hero.contactBtn')} />
       </Motion>
     </section>
   )

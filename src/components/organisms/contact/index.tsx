@@ -2,12 +2,12 @@ import { type ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import { FaEnvelope } from 'react-icons/fa6'
 
-import SectionHeading from '../../atoms/section-heading'
-import Motion from '../../templates/motion'
+import { SectionHeading } from '@/components/atoms/section-heading'
+import { Motion } from '@/components/templates/motion'
 
 const EMAIL_ICON_SIZE = 20
 
-export default function Contact(): ReactNode {
+export function Contact(): ReactNode {
   const { t } = useTranslation()
 
   return (
