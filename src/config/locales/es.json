@@ -25,7 +25,7 @@
       {
         "role": "Senior Software Engineer",
         "company": "medflex.de",
-        "period": "05/2022 - 06/2023",
+        "period": "06/2022 - 06/2023",
         "description": "Lideré un equipo de 3 desarrolladores para construir un nuevo módulo core. Optimicé la escalabilidad de la aplicación principal implementando una arquitectura de micro-frontends con Module Federation.",
         "tech": ["React.js", "Webpack", "Node.js", "Express", "MongoDB", "Tailwind CSS"]
       },
@@ -39,14 +39,14 @@
       {
         "role": "Senior Software Engineer",
         "company": "Cloud District",
-        "period": "08/2020 - 12/2021",
+        "period": "07/2020 - 01/2022",
         "description": "Desarrollo de múltiples proyectos: Dashboard administrativo para logística en tiempo real (tipo Uber/Cabify), plataforma de monetización de contenido eCommerce, y migración de gran aplicación deportiva a Angular 12.",
         "tech": ["React.js", "Redux", "Angular", "Node.js", "Identity Server"]
       },
       {
         "role": "Senior Software Engineer & Tech Lead",
         "company": "Opinno",
-        "period": "04/2019 - 09/2020",
+        "period": "04/2019 - 07/2020",
         "description": "Desarrollo full-stack para compañía de seguros, proyecto de gestión de farmacias y creación de esqueletos de aplicaciones base. Gestión técnica y asignación de equipo en la oficina de Cádiz.",
         "tech": ["Node.js", "DynamoDB", "React.js", "Vue.js", "React Native", "TypeScript"]
       },
@@ -63,6 +63,13 @@
         "period": "09/2016 - 09/2017",
         "description": "Desarrollo y mantenimiento de un sistema completo de gestión de certificados de seguridad con flujos de trabajo.",
         "tech": ["Yii (PHP)", "Java", "Oracle", "JavaScript"]
+      },
+      {
+        "role": "Full-stack Developer",
+        "company": "Biduzz",
+        "period": "05/2014 - 10/2014",
+        "description": "Desarrollo de una aplicación interna para gestionar licitaciones en línea.",
+        "tech": ["PHP", "MySQL", "JavaScript"]
       }
     ]
   },

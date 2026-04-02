@@ -25,7 +25,7 @@
       {
         "role": "Senior Software Engineer",
         "company": "medflex.de",
-        "period": "05/2022 - 06/2023",
+        "period": "06/2022 - 06/2023",
         "description": "Led a team of 3 developers to build a new module for the core application. Optimized scalability by implementing a micro-frontend architecture with Module Federation.",
         "tech": ["React.js", "Webpack", "Node.js", "Express", "MongoDB", "Tailwind CSS"]
       },
@@ -39,14 +39,14 @@
       {
         "role": "Senior Software Engineer",
         "company": "Cloud District",
-        "period": "08/2020 - 12/2021",
+        "period": "07/2020 - 01/2022",
         "description": "Developed a comprehensive administrative dashboard for real-time logistics, a content monetization platform for eCommerce, and migrated a large sports company website to Angular 12.",
         "tech": ["React.js", "Redux", "Angular", "Node.js", "Identity Server"]
       },
       {
         "role": "Senior Software Engineer & Tech Lead",
         "company": "Opinno",
-        "period": "04/2019 - 09/2020",
+        "period": "04/2019 - 07/2020",
         "description": "Full-stack development for an insurance company, pharmacy management project, and basic application skeletons. Managed coworker assignments for the Cádiz office.",
         "tech": ["Node.js", "DynamoDB", "React.js", "Vue.js", "React Native", "TypeScript"]
       },
@@ -63,6 +63,13 @@
         "period": "09/2016 - 09/2017",
         "description": "Development and maintenance of a complete management system for security certificates with workflows.",
         "tech": ["Yii (PHP)", "Java", "Oracle", "JavaScript"]
+      },
+      {
+        "role": "Full-stack Developer",
+        "company": "Biduzz",
+        "period": "05/2014 - 10/2014",
+        "description": "Development of internal application to manage online bids.",
+        "tech": ["PHP", "MySQL", "JavaScript"]
       }
     ]
   },

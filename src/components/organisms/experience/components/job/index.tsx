@@ -14,7 +14,7 @@ export function Job({ job }: Props): ReactNode {
       <div className="text-sm font-mono text-[#a1a1aa] mt-1">{job.period}</div>
       <div>
         <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors">
-          {job.role} · {job.company}
+          <span>{job.role} · </span><span className='text-emerald-200'>{job.company}</span>
         </h3>
         <p className="mt-4 text-[#a1a1aa] leading-relaxed">{job.description}</p>
         <div className="mt-6 flex flex-wrap gap-2">
